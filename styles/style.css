@@ -1,0 +1,230 @@
+/* style */
+body{
+  padding: 0;
+  margin: 0;
+}
+/* text style */
+.big-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+}
+
+.title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* color style */
+.color-1 {
+  color: #5f5f5f;
+}
+
+
+.color-2 {
+  color: #ffe300;
+}
+
+.color-4 {
+  color: #6c63ff;
+}
+
+.color-3 {
+  color: #ff7800;
+}
+
+.color-white {
+  color: white;
+}
+
+.color-bg-grey {
+  background-color: #E6E6E6;
+}
+
+.color-bg {
+  background-color: #f7f7f7;
+}
+
+.color-bg-orange {
+  background-color: #ffe300;
+}
+
+.color-bg-purple {
+  background-color: #6c63ff;
+}
+
+.color-bg-grey-1 {
+  background-color: #F4F4F4;
+}
+
+
+/* border */
+.border-15{
+  border-radius: 15px;
+}
+.border-5 {
+  border-radius: 5px;
+}
+
+.border-20 {
+  border-radius: 20px;
+}
+
+.border-1 {
+
+  border: 0.5px solid #5F5F5F;
+  box-sizing: border-box;
+
+}
+
+.border-2 {
+
+  border: 2px solid #6c63ff !important;
+  box-sizing: border-box;
+
+}
+
+
+.m-50 {
+  padding-left: 50px;
+  padding-top: 262px;
+}
+
+.m-t-15 {
+
+  padding-top: 15%;
+}
+
+.m-t-50 {
+
+  padding-top: 50%;
+}
+
+/* bottom */
+.welcome-btn {
+
+  height: 70px;
+  text-align: center;
+  border: 2px solid #5f5f5f;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.main-header {
+  height: 642px;
+
+}
+
+
+.btn-main-header-frist {
+  text-decoration: none !important;
+}
+
+.navbar-width{
+  height: 85px;
+}
+/* even */
+.btn-main-header:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #6c63ff !important;
+  text-decoration: none !important;
+
+}
+
+.not-underline {
+  text-decoration: none !important;
+}
+
+.btn-main-header-frist:hover {
+  color: #5F5F5F;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: 2px solid #ffe300 !important;
+  text-decoration: none !important;
+
+}
+
+.login:hover {
+  box-shadow: 0 4px 4px -0 rgba(0, 0, 0, 0.2);
+  color: #f7f7f7;
+}
+.navbar-toggler-icon{
+  filter: invert(50%);
+}
+
+/* recommended-search */
+.recommended-search {
+  height: 100%;
+}
+
+/* job-posting */
+.job-posting {
+  /* height: 219px; */
+  text-align: center;
+  position: relative;
+
+}
+
+
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px;
+  width: 50px;
+  color: #ffe300;
+  filter: invert(50%);
+}
+.carousel-indicators{
+  filter: invert(50);
+}
+.carousel-item {
+  position: relative;
+  height: 752px;
+
+  /* background-color: #5f5f5f; */
+}
+
+.container {
+  position: absolute;
+  /* bottom: 0; */
+  right: 0;
+  left: 0;
+  padding-top: 20%;
+}
+
+.img-carousel {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  /* right: 80%; */
+}
+
+/* find-people */
+.find-people {
+  position: relative;
+  /* width: 1440px; */
+  /* height: 800px; */
+  /* left: 0px;
+  top: 2218px; */
+}
+
+.contianer-find-people {
+  text-align: center;
+}
+
+.started {
+  position: relative;
+  /* height: 110%; */
+  height: 750px;
+
+}
+
+
+
+
