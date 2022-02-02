@@ -3,7 +3,7 @@
 1.  นายศักรินทร์ สิงหอยู่ 
 2.  นางสาวณาตหชา  มุมแดง
 3.  นางสาวนวพร บุญก่อน
-## เว็บไซต์หางาน [คลิกเพื่อเยี่ยมชม](https://sekkarin.github.io/Web-design-and-programming/)
+## เว็บไซต์หางาน [คลิกเพื่อเยี่ยมชม](https://web-design-and-programming.github.io/Front-end-web-development/)
  
 ![น้อง](https://user-images.githubusercontent.com/73205970/146189112-724f6fc8-c4d1-4293-ac64-9001ac3c0c62.jpg)
 
