@@ -22,19 +22,16 @@ body{
   font-family: var(--mian-font);
   font-size: var(--font-24);
 }
-
 .font-32{
   font-family: var(--mian-font);
   font-size: var(--font-32);
 }
-
 .bg-green-80{
   background-color: var(--green-main);
 }
 .bg-purple-10{
   background-color: var(--purple-main);
 }
-
 a.underline{
   text-decoration: none;
   color: black;
@@ -42,4 +39,9 @@ a.underline{
 .underline{
   text-decoration: none;
   color: black;
+}
+
+/* งานติดตาม */
+.pink{
+  background-color: pink;
 }
