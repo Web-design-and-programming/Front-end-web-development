@@ -32,6 +32,9 @@ body{
 .bg-purple-10{
   background-color: var(--purple-main);
 }
+.color-font-purple{
+  color: #6A097D !important;
+}
 a.underline{
   text-decoration: none;
   color: black;
