@@ -43,3 +43,9 @@ a.underline{
   text-decoration: none;
   color: black;
 }
+.w-15{
+  width: 15%;
+}
+.bg-pink-20{
+  background-color: #FDE8E9;
+}
