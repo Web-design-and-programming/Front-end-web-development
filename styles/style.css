@@ -3,6 +3,7 @@
 :root{
   --green-main:#E8F6EF;
   --purple-main:#6A097D;
+  --pink-main:#FDE8E9;
   --mian-font:'Prompt', sans-serif;
   --font-18:18px;
   --font-24:24px;
@@ -15,6 +16,7 @@ body{
 }
 /* text style */
 .font-18 {
+  
   font-family: var(--mian-font);
   font-size: var(--font-18);
 }
@@ -22,19 +24,22 @@ body{
   font-family: var(--mian-font);
   font-size: var(--font-24);
 }
-
 .font-32{
   font-family: var(--mian-font);
   font-size: var(--font-32);
 }
-
 .bg-green-80{
   background-color: var(--green-main);
+}
+.bg-pink-20{
+  background-color: var(--pink-main);
 }
 .bg-purple-10{
   background-color: var(--purple-main);
 }
-
+.color-font-purple{
+  color: #6A097D !important;
+}
 a.underline{
   text-decoration: none;
   color: black;
@@ -48,4 +53,18 @@ a.underline{
 }
 .bg-pink-20{
   background-color: #FDE8E9;
+
+/* งานติดตาม */
+.pink{
+  background-color: pink;
+}
+.list-type-none{
+  list-style-type: none;
+}
+/* Set the size of the div element that contains the map */
+#map {
+  height: 500px;
+  /* The height is 400 pixels */
+  width: 250px;
+  /* The width is the width of the web page */
 }
