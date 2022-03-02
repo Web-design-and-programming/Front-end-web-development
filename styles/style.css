@@ -4,6 +4,7 @@
   --green-main:#E8F6EF;
   --purple-main:#6A097D;
   --pink-main:#FDE8E9;
+  --grey-main:#CCCCCC;
   --mian-font:'Prompt', sans-serif;
   --font-18:18px;
   --font-24:24px;
@@ -31,6 +32,9 @@ body{
 .bg-green-80{
   background-color: var(--green-main);
 }
+.bg-grey-10{
+  background-color: #CCCCCC;
+}
 .bg-pink-20{
   background-color: var(--pink-main);
 }
@@ -48,8 +52,14 @@ a.underline{
   text-decoration: none;
   color: black;
 }
+.w-15{
+  width: 15%;
+}
+.bg-pink-20{
+  background-color: #FDE8E9;
 
 /* งานติดตาม */
+
 .pink{
   background-color: pink;
 }
