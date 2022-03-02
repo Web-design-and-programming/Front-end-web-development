@@ -6,6 +6,7 @@
   --pink-main:#FDE8E9;
   --grey-main:#CCCCCC;
   --mian-font:'Prompt', sans-serif;
+  --font-14:18px;
   --font-18:18px;
   --font-24:24px;
   --font-32:32px;
@@ -16,6 +17,11 @@ body{
   margin: 0;
 }
 /* text style */
+.font-14 {
+  
+  font-family: var(--mian-font);
+  font-size: var(--font-14);
+}
 .font-18 {
   
   font-family: var(--mian-font);
