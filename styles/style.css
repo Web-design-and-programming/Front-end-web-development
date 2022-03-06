@@ -73,3 +73,8 @@ a.underline{
   width: 250px;
   /* The width is the width of the web page */
 }
+
+
+.w-5 {
+  width:5%;
+}
