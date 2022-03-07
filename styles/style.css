@@ -23,7 +23,7 @@ body{
   font-size: var(--font-14);
 }
 .font-18 {
-  
+
   font-family: var(--mian-font);
   font-size: var(--font-18);
 }
@@ -78,4 +78,9 @@ a.underline{
   /* The height is 400 pixels */
   width: 250px;
   /* The width is the width of the web page */
+}
+
+
+.red {
+  color: red;
 }
