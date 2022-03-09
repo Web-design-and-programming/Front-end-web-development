@@ -6,10 +6,10 @@
   --pink-main:#FDE8E9;
   --grey-main:#CCCCCC;
   --mian-font:'Prompt', sans-serif;
-  --font-14:18px;
+  --font-14:14px;
   --font-18:18px;
-  --font-24:24px;
-  --font-32:32px;
+  --font-24:18px;
+  --font-32:24px;
 }
 
 body{
