@@ -1,331 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Prototype website</title>
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="../assets/icon/undraw_cabin_hkfr.svg"
-    />
-    <!-- font  -->
 
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="assets/bootstrab/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" /> -->
-    <link
-      rel="stylesheet"
-      href="../assets/bootstrab/bootstrap-5.1.3-dist/css/bootstrap.min.css"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prototype website</title>
+  <link rel="icon" type="image/x-icon" href="../assets/icon/undraw_cabin_hkfr.svg" />
+  <!-- font  -->
 
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
-    </style>
-    <!-- import style custom -->
-    <link rel="stylesheet" href="../styles/style.css" />
+  <!-- Bootstrap CSS -->
+  <!-- <link rel="stylesheet" href="assets/bootstrab/bootstrap-5.1.3-dist/css/bootstrap.rtl.min.css" /> -->
+  <link rel="stylesheet" href="../assets/bootstrab/bootstrap-5.1.3-dist/css/bootstrap.min.css" />
 
-    
-  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Prompt&display=swap");
+  </style>
+  <!-- import style custom -->
+  <link rel="stylesheet" href="../styles/style.css" />
 
 
-  <body class="bg-white ">
-       <!--  navbar -->
-    <nav class="navbar navbar-expand-sm">
-        <!-- Content -->
-        <div class="container-fluid nav-bar">
-          <!-- Brand -->
-          <a href="#" class="navbar-brand">
-            <img src="../assets/icon/undraw_cabin_hkfr.svg" height="46" alt="" />
-            <span class="text-dark">KDU</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggle"
-          >
-            <span> <img src="assets/img/menu.png" height="32" alt="" /></span>
-          </button>
-          <!-- Menu -->
-          <div class="navbar-collapse collapse" id="navbarToggle">
-            <ul class="navbar-nav ms-auto mx-3">
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link font-24  mx-4  text-dark"
-                  >หางาน</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link  mx-4 font-24 text-dark"
-                  >ประวัติ</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link  mx-4 font-24 text-dark"
-                  >งานของฉัน</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link  mx-4 font-24 text-dark"
-                  >ตั้งค่า</a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link 1 mx-4  font-24 text-dark"
-                  >ออกจากระบบ</a>
-              </li>
-            </ul>
+</head>
+
+
+<body class="bg-white ">
+  <!--  navbar -->
+  <nav class="navbar navbar-expand-sm">
+    <!-- Content -->
+    <div class="container-fluid nav-bar">
+      <!-- Brand -->
+      <a href="#" class="navbar-brand">
+        <img src="../assets/icon/undraw_cabin_hkfr.svg" height="46" alt="" />
+        <span class="text-dark">KDU</span>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarToggle">
+        <span> <img src="assets/img/menu.png" height="32" alt="" /></span>
+      </button>
+      <!-- Menu -->
+      <div class="navbar-collapse collapse" id="navbarToggle">
+        <ul class="navbar-nav ms-auto mx-3">
+          <li class="nav-item">
+            <a href="#" class="nav-link font-24  mx-4  text-dark">หางาน</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link  mx-4 font-24 text-dark">ประวัติ</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link  mx-4 font-24 text-dark">งานของฉัน</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link  mx-4 font-24 text-dark">ตั้งค่า</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link 1 mx-4  font-24 text-dark">ออกจากระบบ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--  end navbar -->
+
+  <main class="container-fluid">
+    <div class="row">
+      <!-- 1 form -->
+      <div class="col-3">
+        <h1 class="font-32 color-font-purple mt-5 mx-3">
+          ข้อมูลส่วนตัวส่วนบุคคล
+        </h1>
+      </div>
+      <div class="col-8">
+        <!--  form-1 -->
+        <div class="row">
+          <div class="d-flex justify-content-between mt-5 align-self-end">
+            <p class="font-24 mt-3">ชื่อ</p>
+
+            <div class="d-flex w-75">
+              <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                aria-label=".form-control-lg example" />
+              <p class="text-danger fs-5 mx-5 mt-3">*</p>
+            </div>
           </div>
         </div>
-      </nav>
-      <!--  end navbar -->
-      <main class="container-fluid">
+        <!--  end form-1 -->
+        <!--  form-2 -->
         <div class="row">
-          <!-- 1 form -->
-          <div class="col-3">
-            <h1 class="font-32 color-font-purple mt-5 mx-3">
-              ข้อมูลส่วนตัวส่วนบุคคล
-            </h1>
-          </div>
-          <div class="col-8">
-            <div class="d-flex justify-content-between mt-5 align-self-end">
-              <p class="font-24 mt-3">ชื่อ</p>
-  
-              <div class="d-flex w-75">
-                <input
-                  class="form-control form-control-sm w-100 rounded-pill"
-                  type="text"
-                  placeholder=""
-                  aria-label=".form-control-lg example"
-                />
-                <p class="text-danger fs-5 mx-5 mt-3">*</p>
-              </div>
-            </div>
-          </div>
-          <!-- end 1 form -->
-  
-          <!-- 2 form -->
-          <div class="col-3"></div>
-          <div class="col-8">
+          <div class="col">
             <div class="d-flex justify-content-between mt-5 align-self-end">
               <p class="font-24 mt-3">นามสกุล</p>
-  
-              <div class="d-flex w-75">
-                <input
-                  class="form-control form-control-sm w-100 rounded-pill"
-                  type="text"
-                  placeholder=""
-                  aria-label=".form-control-lg example"
-                />
-                <p class="text-danger fs-5 mx-5 mt-3">*</p>
-              </div>
-            </div>
-          </div>
-          <!-- end 2 form -->
 
-          <!-- 3 form -->
-          <div class="col-3"></div>
-          <div class="col-8">
-            <div class="d-flex justify-content-between mt-5 align-self-end">
-              <p class="font-24 mt-3">นามสกุล</p>
-  
               <div class="d-flex w-75">
-                <input
-                  class="form-control form-control-sm w-100 rounded-pill"
-                  type="text"
-                  placeholder=""
-                  aria-label=".form-control-lg example"
-                />
+                <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                  aria-label=".form-control-lg example" />
                 <p class="text-danger fs-5 mx-5 mt-3">*</p>
               </div>
             </div>
           </div>
-          <!-- end 3 form -->          
-          
-          <!-- 4 form -->
-          <div class="col-3"></div>
+        </div>
+        <!-- 2 form -->
+        <!--  form-2 -->
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-between mt-5 align-self-end">
+              <p class="font-24 mt-3">วันเดือนปีเกิด</p>
+
+              <div class="d-flex w-75">
+                <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                  aria-label=".form-control-lg example" />
+                <p class="text-danger fs-5 mx-5 mt-3">*</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2 form -->
+
+        <!-- 3 form -->
+        <div class="row">
           <div class="col-8">
             <div class="d-flex justify-content-between mt-5 align-self-end">
               <p class="font-24 mt-3">เพศ</p>
-  
+
               <div class="d-flex w-75 mt-3">
                 <div class="form-check form-check-inline mx-5">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="inlineRadio1"
-                    value="ชาย"
-                  />
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="ชาย" />
                   <label class="form-check-label" for="inlineRadio1">ชาย</label>
                 </div>
                 <div class="form-check form-check-inline">
-                  <input
-                    class="form-check-input"
-                    type="radio"
-                    name="inlineRadioOptions"
-                    id="inlineRadio2"
-                    value="หญิง"
-                  />
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="หญิง" />
                   <label class="form-check-label" for="inlineRadio2">หญิง</label>
                 </div>
               </div>
             </div>
           </div>
-          <!-- end 4 form -->
+        </div>
+        <!-- end 3form -
+        <!-- 6 form -->
 
-          <!-- 5 form -->
-          <div class="col-3"></div>
-          <div class="col-7">
-            <div class="d-flex justify-content-between mt-3 align-self-end">
-              <p class="font-24 mt-3">ส่วนสูง</p>
-  
-              <div class="d-flex w-50">
-                <input
-                  class="form-control form-control-sm w-50 rounded-pill"
-                  type="text"
-                  placeholder="เซนติเมตร"
-                  aria-label=".form-control-lg example"
-                /> 
-                <div class="d-flex w-50 justify-content-between mt-3 align-self-end">
-                  <p class="font-24 mt-3">น้ำหนัก</p>
-      
-                  <div class="d-flex w-50">
-                    <input
-                      class="form-control form-control-sm w-50 rounded-pill"
-                      type="text"
-                      placeholder="กิโลเมตร"
-                      aria-label=".form-control-lg example"
-                    />           
-                  </div>
-                </div>          
-              </div>
-            </div>
-          </div>     
-          <!-- end 5 form -->
- 
-         <!-- 6 form -->
-         <div class="col-3"></div>
-         <div class="col-8">
-           <div class="d-flex justify-content-between mt-5 align-self-end">
-             <p class="font-24 mt-3">ที่อยู่ปัจจุบัน</p>
- 
-             <div class="d-flex w-75">
-               <input
-                 class="form-control form-control-sm w-100 rounded-pill"
-                 type="text"
-                 placeholder=""
-                 aria-label=".form-control-lg example"
-               />
-               <p class="text-danger fs-5 mx-5 mt-3">*</p>
-             </div>
-           </div>
-         </div>
-         <!-- end 6 form -->
-
-         <!-- 7 form -->
-         <div class="col-3"></div>
-         <div class="col-8">
-           <div class="d-flex justify-content-between mt-5 align-self-end">
-             <p class="font-24 mt-3">จังหวัด</p>
- 
-             <div class="d-flex w-75">
-               <input
-                 class="form-control form-control-sm w-100 rounded-pill"
-                 type="text"
-                 placeholder=""
-                 aria-label=".form-control-lg example"
-               />
-               <p class="text-danger fs-5 mx-5 mt-3">*</p>
-             </div>
-           </div>
-         </div>
-         <!-- end 7 form -->
-
-         <!-- 8 form -->
-         <div class="col-3"></div>
-         <div class="col-8">
-           <div class="d-flex justify-content-between mt-5 align-self-end">
-             <p class="font-24 mt-3">เขต/อำเภอ</p>
- 
-             <div class="d-flex w-75">
-               <input
-                 class="form-control form-control-sm w-100 rounded-pill"
-                 type="text"
-                 placeholder=""
-                 aria-label=".form-control-lg example"
-               />
-               <p class="text-danger fs-5 mx-5 mt-3">*</p>
-             </div>
-           </div>
-         </div>
-         <!-- end 8 form -->        
-         
-         <!-- 9 form -->
-          <div class="col-3"></div>
-          <div class="col-8">
+        <div class="row">
+          <div class="col">
             <div class="d-flex justify-content-between mt-5 align-self-end">
-              <p class="font-24 mt-3">แขวน/ตำบล</p>
-  
+              <p class="font-24 mt-3">ที่อยู่ปัจจุบัน</p>
+
               <div class="d-flex w-75">
-                <input
-                  class="form-control form-control-sm w-100 rounded-pill"
-                  type="text"
-                  placeholder=""
-                  aria-label=".form-control-lg example"
-                />
+                <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                  aria-label=".form-control-lg example" />
                 <p class="text-danger fs-5 mx-5 mt-3">*</p>
               </div>
             </div>
           </div>
-          <!-- end 9 form -->
-          
-          <!-- 10 form -->
-          <div class="col-3"></div>
-          <div class="col-8">
-            <div class="d-flex justify-content-between mt-5 align-self-end">
-              <p class="font-24 mt-3">รหัสไปรษณีย์</p>
-  
-              <div class="d-flex w-75">
-                <input
-                  class="form-control form-control-sm w-100 rounded-pill"
-                  type="text"
-                  placeholder=""
-                  aria-label=".form-control-lg example"
-                />
-                <p class="text-danger fs-5 mx-5 mt-3">*</p>
-              </div>
+        </div>
+
+        <!-- end 6 form -->
+        <!-- 7 form -->
+        <div class="row"></div>
+        <div class="col">
+          <div class="d-flex justify-content-between mt-5 align-self-end">
+            <p class="font-24 mt-3">จังหวัด</p>
+
+            <div class="d-flex w-75">
+              <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                aria-label=".form-control-lg example" />
+              <p class="text-danger fs-5 mx-5 mt-3">*</p>
             </div>
           </div>
-          <!-- end 10 form -->         
-          <!-- 11 form -->
-          <div class="col-3">
-            <h1 class="font-32 color-font-purple mt-5 mx-3">
-              บุคคลทุพพลภาพ
-              (พิการ)
-            </h1>
-          </div>
-          <div class="col-8">
-            <div class="d-flex justify-content-between mt-5 align-self-end">
-              <p class="font-24 mt-3">โทรศัพท์มือถือ</p>
-  
-              <div class="d-flex w-75">
-                <input
-                  class="form-control form-control-sm w-100 rounded-pill"
-                  type="text"
-                  placeholder=""
-                  aria-label=".form-control-lg example"
-                />
-              </div>
+        </div>
+        <!-- end 7 form -->
+
+        <!-- 8 form -->
+        <div class="row"></div>
+        <div class="col">
+          <div class="d-flex justify-content-between mt-5 align-self-end">
+            <p class="font-24 mt-3">เขต/อำเภอ</p>
+
+            <div class="d-flex w-75">
+              <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                aria-label=".form-control-lg example" />
+              <p class="text-danger fs-5 mx-5 mt-3">*</p>
             </div>
           </div>
-          <!-- end 11 form -->
-          <!-- footer -->
+        </div>
+        <!-- end 8 form -->
+        <!-- 9 form -->
+        <div class="row"></div>
+        <div class="col">
+          <div class="d-flex justify-content-between mt-5 align-self-end">
+            <p class="font-24 mt-3">แขวน/ตำบล</p>
+
+            <div class="d-flex w-75">
+              <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                aria-label=".form-control-lg example" />
+              <p class="text-danger fs-5 mx-5 mt-3">*</p>
+            </div>
+          </div>
+        </div>
+        <!-- end 9 form -->
+        <!-- 10 form -->
+        <div class="row"></div>
+        <div class="col">
+          <div class="d-flex justify-content-between mt-5 align-self-end">
+            <p class="font-24 mt-3">รหัสไปรษณีย์</p>
+
+            <div class="d-flex w-75">
+              <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                aria-label=".form-control-lg example" />
+              <p class="text-danger fs-5 mx-5 mt-3">*</p>
+            </div>
+          </div>
+        </div>
+        <!-- end 10 form -->
+        <!-- 11 form -->
+        
+        <div class="col">
+          <div class="d-flex justify-content-between mt-5 align-self-end">
+            <p class="font-24 mt-3">โทรศัพท์มือถือ</p>
+
+            <div class="d-flex w-75">
+              <input class="form-control form-control-sm w-100 rounded-pill" type="text" placeholder=""
+                aria-label=".form-control-lg example" />
+                <p class="text-danger fs-5 mx-5 mt-3"></p>
+            </div>
+          </div>
+        </div>
+        <!-- end 11 form -->
+        <!-- ปุ่มบันทึก -->
+        <div class="text-center">
+          <button class="btn btn-primary bg-purple-10 w-50 mt-3" href="#" role="button" >บันทึก</button>
+        </div>
+        <!-- จบ ปุ่มบันทึก -->
+
+      </div>
+      <!-- end col -->
+    </div>
+    <!-- end row -->
+
+    <div class="col-3">
+      <h1 class="font-32 color-font-purple mt-5 mx-3">
+        บุคคลทุพพลภาพ
+        (พิการ)
+      </h1>
+    </div>
+    
+    <!-- footer -->
     <footer class="text-center ">
       <p class="my-3 font-18">
         สงวนลิขสิทธิ์ © 2565 บริษัท เคดียู จำกัด |
@@ -336,11 +252,12 @@
       </p>
     </footer>
     <!-- end footer -->
-      
+
 
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="scripts/main.js"></script>
 
     <script src="../assets/bootstrab/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
-  </body>
+</body>
+
 </html>
