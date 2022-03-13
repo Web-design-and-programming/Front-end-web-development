@@ -79,8 +79,39 @@ a.underline{
   width: 250px;
   /* The width is the width of the web page */
 }
+.block-1{
+  position: relative;
+}
+.logo{
+  position: absolute;
+  top: 170px;
+  right: 700px;
+  width: 600px;
+  margin-bottom: 100px;
+}
 
-
-.red {
-  color: red;
+li > a:hover{
+  /* transition-delay: 0.2s; */
+  transition: background-color .2s;
+  background-color: #CCCCCC;
+  border-radius: 10px;
+  transform: scale(1.02);
+  
+}
+.btn:hover{
+  transform: scale(1.02);
+  transition: transform .2s; /* Animation */
+}
+.zoom:hover{
+  transform: scale(1.1);
+  transition: transform .2s; /* Animation */
+}
+.zoom-card:hover{
+  transition: box-shadow .3s; /* Animation */
+  transform: scale(1.01);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.zoom-img:hover{
+  transform: scale(1.02);
+  transition: transform .2s; /* Animation */
 }

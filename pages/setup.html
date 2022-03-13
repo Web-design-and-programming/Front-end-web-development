@@ -8,7 +8,7 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="../assets/icon/undraw_cabin_hkfr.svg" 
+      href="../assets/icon/undraw_cabin_hkfr.svg"
     />
     <!-- font  -->
 
@@ -24,135 +24,233 @@
     </style>
     <!-- import style custom -->
     <link rel="stylesheet" href="../styles/style.css" />
-    
   </head>
 
+  <body class="bg-white">
+    <!--  navbar -->
+    <nav class="navbar navbar-expand-sm">
+      <!-- Content -->
+      <div class="container-fluid nav-bar">
+        <!-- Brand -->
+        <a href="../index.html" class="navbar-brand">
+          <img src="../assets/icon/undraw_cabin_hkfr.svg" height="46" alt="" />
+          <span class="text-dark">KDU</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarToggle"
+        >
+          <span> <img src="../assets/img/menu.png" height="32" alt="" /></span>
+        </button>
+        <!-- Menu -->
+        <div class="navbar-collapse collapse" id="navbarToggle">
+          <ul class="navbar-nav ms-auto mx-3">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link font-24 mx-4 text-dark"
+                >หางาน</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="profile.html" class="nav-link mx-4 font-24 text-dark"
+                >ฝากประวัติ</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                href="followupwork.html"
+                class="nav-link mx-4 font-24 text-dark"
+                >งานของฉัน</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="setup.html" class="nav-link mx-4 font-24 text-dark"
+                >ตั้งค่า</a
+              >
+            </li>
+            <li class="nav-item">
+              <a href="login.html" class="nav-link 1 mx-4 font-24 text-dark"
+                >เข้าสู่ระบบ</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--  end navbar  -->
 
-  <body class="bg-white ">
-      <!--  navbar -->
-      <nav class="navbar navbar-expand-sm">
-        <!-- Content -->
-        <div class="container-fluid nav-bar">
-          <!-- Brand -->
-          <a href="../index.html" class="navbar-brand">
-            <img src="../assets/icon/undraw_cabin_hkfr.svg" height="46" alt="" />
-            <span class="text-dark">KDU</span>
-          </a>
-          <button
-            class="navbar-toggler"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarToggle"
+    <section class="container-fluid">
+      <div class="row w-100">
+        <h1 class="font-32 m-4">หน้าแรก / ตั้งค่าการใช้งาน</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-11">
+          <h1 class="font-24 m-5 color-font-purple">การตั้งค่าการใช้งาน</h1>
+        </div>
+      </div>
+
+      <div class="container w-50">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="font-18"
+            >ชื่อผู้ใช้</label
           >
-            <span> <img src="../assets/img/menu.png" height="32" alt="" /></span>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder=""
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="font-18"
+            >รหัสผ่านเดิม!</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder=""
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="font-18"
+            >รหัสผ่านใหม่</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder=""
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="font-18"
+            >รหัสผ่านใหม่อีกครั้ง</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder=""
+          />
+        </div>
+
+        <div class="container m-4">
+          <div class="row">
+            <div class="col"><h class="font-18">แจ้งเตือน</h></div>
+            <div class="col">
+              <input
+                class="form-check-input align-self-center"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1"
+              />
+              <label class="font-18">แนะนำงานดี</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="font-18">นัดสัมภาษณ์งาน</label>
+            </div>
+            <div class="w-100"></div>
+            <div class="col"><h class="font-18">การรับข่าวสาร</h></div>
+            <div class="col">
+              <input
+                class="form-check-input align-self-center"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio1"
+                value="option1 "
+              />
+              <label class="font-18">SMS</label>
+            </div>
+            <div class="col">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="inlineRadioOptions"
+                id="inlineRadio2"
+                value="option2"
+              />
+              <label class="font-18">การรับข่าวสาร</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-around my-5">
+          <button
+            type="button"
+            class="btn btn-purple font-18 bg-purple-10 text-white"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
+          บันทึกข้อมูล
           </button>
-          <!-- Menu -->
-          <div class="navbar-collapse collapse" id="navbarToggle">
-            <ul class="navbar-nav ms-auto mx-3">
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link font-24  mx-4  text-dark"
-                  >หางาน</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link  mx-4 font-24 text-dark"
-                  >ประวัติ</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  href="../index.html"
-                  class="nav-link  mx-4 font-24 text-dark"
-                  >งานของฉัน</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link  mx-4 font-24 "
-                  >ตั้งค่า</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#"
-                  class="nav-link 1 mx-4  font-24 text-dark"
-                  >เข้าสู่ระบบ</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <!--  end navbar -->
+          <a
+            name=""
+            id=""
+            class="btn btn-grey font-18 bg-grey-10"
+            href="#"
+            role="button"
+            >ยกเลิก</a
+          >
 
-      <section class="container-fluid"> 
-        <div class="row  w-100">
-          <h1 class="font-32 m-4" >หน้าแรก / ตั้งค่าการใช้งาน</h1>
-        </div>
-        
-        <div class="row">
-          <div class="col-1"></div>
-          <div class="col-11"><h1 class=" font-24 m-5 color-font-purple "> การตั้งค่าการใช้งาน</h1></div>
-        </div>
+          <!-- Button trigger modal -->
 
-        
-          <div class="container  w-50">
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="font-18">ชื่อผู้ใช้</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                    การบันทึกข้อมูล
+                  </h5>
+                  
+                </div>
+                <div class="modal-body">
+                  <p class="fs-1 color-font-purple text-center">สำเร็จ</p>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    ปิด
+                  </button>
+                
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="font-18">รหัสผ่านเดิม!</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="font-18">รหัสผ่านใหม่</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-            
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="font-18">รหัสผ่านใหม่อีกครั้ง</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder=""> 
           
-          </div>
+        </div>
+      </div>
+    </section>
 
-          <div class="container m-4  ">
-            <div class="row ">
-              <div class="col"><h class="font-18 ">แจ้งเตือน</h></div>
-              <div class="col"><input class="form-check-input align-self-center" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
-                <label class="font-18 ">แนะนำงานดี</label></div>
-              <div class="col"><input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="font-18 ">นัดสัมภาษณ์งาน</label></div>
-              <div class="w-100"></div>
-              <div class="col"> <h class="font-18 ">การรับข่าวสาร</h></div>
-              <div class="col"><input class="form-check-input align-self-center" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1 ">
-                <label class="font-18 ">SMS</label></div>
-              <div class="col"><input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
-                <label class="font-18   ">การรับข่าวสาร</label></div>        
-            </div>
-          </div>    
-            <div class="d-flex justify-content-around my-5"> 
-              <a name="" id="" class="btn btn-purple font-18 bg-purple-10 text-white" href="../pages/profile.html" role="button">บันทึกข้อมูล</a>
-              <a name="" id="" class="btn btn-grey font-18 bg-grey-10  " href="#" role="button">ยกเลิก</a>
-            </div>
-          </div>
-        </div>
-        
-        </div>
-      </section>
-      <footer class="text-center  ">
-        <p class="my-3 font-18 ">
-          สงวนลิขสิทธิ์ © 2565 บริษัท เคดียู จำกัด |
-          <a href="" class="underline">เงื่อนไขข้อตกลงการใช้บริการ</a> |
-          <a href="" class="underline">นโยบายความเป็นส่วนตัว</a> |
-          <a href="" class="underline">นโยบายคุกกี้</a> |
-          <a href="" class="underline">ข้อจำกัดความรับผิด</a>
-        </p>
-      </footer>
+    <footer class="text-center">
+      <p class="my-3 font-18">
+        สงวนลิขสิทธิ์ © 2565 บริษัท เคดียู จำกัด |
+        <a href="" class="underline">เงื่อนไขข้อตกลงการใช้บริการ</a> |
+        <a href="" class="underline">นโยบายความเป็นส่วนตัว</a> |
+        <a href="" class="underline">นโยบายคุกกี้</a> |
+        <a href="" class="underline">ข้อจำกัดความรับผิด</a>
+      </p>
+    </footer>
 
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <script src="scripts/main.js"></script>
